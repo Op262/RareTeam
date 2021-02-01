@@ -78,7 +78,7 @@ client.on("message", msg => {
     
   
 })
-
+// git push --set-upstream github master
 // ----run the bot----
 run()
 // -------------------
