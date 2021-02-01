@@ -78,7 +78,7 @@ client.on("message", msg => {
     
   
 })
-// git push --set-upstream github master
+// git push --set-upstream rareteam master
 // ----run the bot----
 run()
 // -------------------
