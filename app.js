@@ -71,7 +71,7 @@ client.on("message", msg => {
             .addField("Reason", reason)
             let reportChannel = msg.guild.channels.cache.find(x => x.name ==="reports");
            if(!reportChannel) return msg.channel.send("couldn't find the channel")
-           msg.channel.send('Your report has been processed')
+           msg.channel.send('Your report has been processed(t')
            reportChannel.send(embed)
             break;
             }
