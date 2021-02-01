@@ -71,13 +71,13 @@ client.on("message", msg => {
             .addField("Reason", reason)
             let reportChannel = msg.guild.channels.cache.find(x => x.name ==="reports");
            if(!reportChannel) return msg.channel.send("couldn't find the channel")
-           msg.channel.send('Your report has been processed(t')
+           msg.channel.send('Your report has been processed')
            reportChannel.send(embed)
             break;
             }
     client.on("message", msg => {
         if(msg.content === "hello"){
-            msg.reply("hi")
+            msg.reply("hi baby")
         }
     })
   
